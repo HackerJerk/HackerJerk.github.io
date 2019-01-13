@@ -122,19 +122,19 @@ comments:
   provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
-  disqus: false
-    shortname: # the Disqus shortname for the site
+  #disqus: false
+    #shortname: JJfly # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
-  gitalk: true
-    clientID    :"a799eba68799299cde77"
+  gitalk: 
+    clientID    : 'a799eba68799299cde77'
     # GitHub Application Client ID
-    clientSecret: "27bde3597d4767bdacc17f85778be33d3a02891e"
+    clientSecret: '27bde3597d4767bdacc17f85778be33d3a02891e'
     # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    repository  : 'hackerjerk.github.io' # GitHub repo
+    owner       : 'HackerJerk' # GitHub repo owner
+    admin: 'HackerJerk' # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
