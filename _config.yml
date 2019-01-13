@@ -119,18 +119,18 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: "gitalk" # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
-  disqus:
+  disqus: false
     shortname: # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk: true
-    clientID    :a799eba68799299cde77
+    clientID    :"a799eba68799299cde77"
     # GitHub Application Client ID
-    clientSecret: 27bde3597d4767bdacc17f85778be33d3a02891e
+    clientSecret: "27bde3597d4767bdacc17f85778be33d3a02891e"
     # GitHub Application Client Secret
     repository  : # GitHub repo
     owner       : # GitHub repo owner
